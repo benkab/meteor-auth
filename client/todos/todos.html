@@ -1,0 +1,29 @@
+<template name="todos">
+    <div class="container">
+        <div class="col-lg-6 col-lg-offset-3 col-md-4 col-md-offset-4 col-sm-12 col-xs-12">
+            <h4>To Do List</h4>
+            <hr>
+            <div class="col-xs-12 lists">
+                <ul>
+                    {{#each todos}}
+                    <li>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"><span>{{description}}</span>
+                            </label>
+                            <i class="glyphicon glyphicon-trash pull-right"></i>
+                            <i class="glyphicon glyphicon-pencil pull-right"></i>
+                        </div>  
+                    </li>
+                    <hr>
+                    {{/each}}
+                </ul>
+            </div>
+            <div class="col-xs-12 form">
+                <form>
+                    <input type="text" name="description" class="description form-control form-control-xs" placeholder="New task">
+                </form>
+            </div>
+        </div>
+    </div>
+</template>

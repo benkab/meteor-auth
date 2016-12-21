@@ -1,0 +1,47 @@
+.auth .panel{
+    border-radius: 0px;
+    border: 1px solid #F1F1F1;
+    padding: 20px 15px;
+}
+
+.auth .panel input{
+    border-radius: 0px;
+    border: none;
+    box-shadow: none !important;
+    padding-left: 0px !important;
+    font-size: 13px;
+    border-bottom: 1px solid #DBDCDD;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.auth .panel input.error{
+    border-bottom: 1px solid #EE7693 !important;
+}
+
+.auth .panel .checkbox label{
+    font-size: 13px;
+}
+
+.auth .panel button{
+    border-radius: 0px;
+    margin-top: 25px !important;
+}
+
+.auth .panel label.error{
+    font-size: 12px !important;
+    color: #EE5E81;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+}
+
+.auth .auth-title{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    background: #F8F9F9 !important;
+}
+
+.auth .auth-title .panel-body{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}

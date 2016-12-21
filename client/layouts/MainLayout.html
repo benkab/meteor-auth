@@ -1,0 +1,8 @@
+<template name="MainLayout">
+    <main>
+        {{> navigation}}
+        {{#transition in="fadeIn:500" out="fadeOut:500"}}
+            {{> Template.dynamic template=main}}
+        {{/transition}}
+    </main>
+</template>

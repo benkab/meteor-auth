@@ -1,0 +1,8 @@
+<template name="home">
+    <div class="container home">
+        {{#if currentUser.emails.verified}}
+        {{else}}
+            {{> verification}}
+        {{/if}}
+    </div>
+</template>

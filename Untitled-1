@@ -1,0 +1,35 @@
+{ 
+    "_id" : "3HaeRtXaJ6SJ6ZGzb", 
+    "createdAt" : ISODate("2016-12-18T15:07:49.131Z"), 
+    "services" : 
+        { 
+            "password" : 
+                { 
+                    "bcrypt" : "$2a$10$/LBGUpYvNJCEHRYS/5dY7u4tzzBab0UEsYBTmUFnloSHKHxa97pRC" 
+                }, 
+            "resume" : 
+                { "loginTokens" : 
+                    [ 
+                        { "when" : ISODate("2016-12-18T15:07:49.244Z"), 
+                            "hashedToken" : "G6P2SJXJQwhpHJ3V7E8F1jdazPwh6DX9phGbmEmlXm8=" 
+                        } 
+                    ] 
+                }
+            }, 
+            "username" : "Bkabona", 
+            "emails" : 
+                [ 
+                    { 
+                        "address" : "ben_kabona@yahoo.fr", 
+                        "verified" : false } ], 
+                        "profile" : 
+                            { 
+                                "firstname" : "Beni", 
+                                "lastname" : "Kabona", 
+                                "token" : "zdrWJYRPPjSQGXero8KEDHZ5fpH4d5LnHQfzzTNpNHDCMqpBfTfddEkTX4XzsYpi", 
+                                "confirmed" : false 
+                            } 
+                    }
+meteor:PRIMARY> 
+
+ibPvDlR6p6N0VKFLlpoQMrtE5yls0lLO+drDCzT3

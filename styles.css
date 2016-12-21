@@ -1,0 +1,80 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background: #F4F6F7;
+    color: #444343;
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+template{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+.lists{
+    background: #FDFDFD;
+    padding: 35px 40px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 15px !important;
+    border: 1px solid #F1F1F1;
+}
+
+.lists ul{
+    padding: 0px !important;
+}
+
+.lists ul li{
+    list-style: none;
+    display: block;
+}
+
+.lists ul li i{
+    font-size: 12px;
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.lists ul li span{
+    padding-left: 10px;
+}
+
+.form{
+    padding: 25px 40px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-bottom: 25px !important;
+    border: 1px solid #F1F1F1;
+    background: #F8F9F9;
+}
+
+
+.form form input.description{
+    box-shadow: none !important;
+    outline: none !important;
+    font-size: 13px;
+    border: none !important;
+    /*border-bottom: 1px solid #444343 !important;*/
+    border-radius: 0px !important;
+    padding-left: 0px;
+    color: #444343;
+    background: transparent;
+
+}
+
+.alert{
+    border-radius: 0px !important;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #ADADAC !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #ADADAC !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #ADADAC !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #ADADAC !important;
+}
